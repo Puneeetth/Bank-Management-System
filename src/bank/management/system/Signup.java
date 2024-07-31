@@ -6,12 +6,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.security.spec.ECField;
 import java.util.Random;
 
 public class Signup extends JFrame implements ActionListener {
     JRadioButton r1,r2,m1,m2,m3;
     JButton next;
-    JTextField textName,textFname,textEmail,textAdd,textcity,textState;
+    JTextField textName,textFname,textEmail,textAdd,textcity,textState,textPin;
     JDateChooser dateChooser;
 
     Random ran = new Random();
@@ -164,10 +165,10 @@ public class Signup extends JFrame implements ActionListener {
         labelPin.setBounds(100,590,200,30);
         add(labelPin);
 
-        textcity = new JTextField();
-        textcity.setFont(new Font("Raleway",Font.BOLD, 14));
-        textcity.setBounds(300,590,400,30);
-        add(textcity);
+        textPin = new JTextField();
+        textPin.setFont(new Font("Raleway",Font.BOLD, 14));
+        textPin.setBounds(300,590,400,30);
+        add(textPin);
 
         JLabel labelstate = new JLabel("State :");
         labelstate.setFont(new Font("Raleway",Font.BOLD,20));
@@ -196,10 +197,45 @@ public class Signup extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        String formno = first;
+        String name = textName.getText();
+        String fname = textFname.getText();
+        String dob = ((JTextField) dateChooser.getDateEditor().getUiComponent()).getText();
+        String gender = null;
+        if (r1.isSelected()) {
+            gender = "Male";
+        } else if (r2.isSelected()) {
+            gender = "Female";
+        }
+        String email = textEmail.getText();
+        String marital = null;
+        if (m1.isSelected()) {
+            marital = "Married";
+        } else if (m2.isSelected()) {
+            marital = "Unmarried";
+        } else if (m3.isSelected()) {
+            marital = "Other";
+        }
+        String address = textAdd.getText();
+        String city = textcity.getText();
+        String pincode = textPin.getText();
+        String state = textState.getText();
 
+        try{
+            if(textName.getText().equals("")){
+                JOptionPane.showMessageDialog(null,"Fill all the fields");
+            }else{
+                Con con1 = new Con();
+                String q = "insert into signup values('"+formno+"','"+name+"','"+fname+"','"+dob+"','"+gender+"','"+email+"','"+marital+"','"+address+"','"+city+"','"+pincode+"','"+state+"')";
+                con1.statement.executeUpdate(q);
+                new Signup2();
+                setVisible(false);
+            }
+        }catch(Exception E){
+
+        }
     }
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         new Signup();
     }
 }

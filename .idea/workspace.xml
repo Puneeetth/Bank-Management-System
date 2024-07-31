@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bank Management System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Signup.java" afterDir="false" />
+    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Login and Signup forms">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_tz_1_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Signup2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank Management System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bank Management System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Signup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +38,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Login.executor": "Run",
     "Application.Signup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/jcalendar-tz-1.3.3-4.jar",
+    "last_opened_file_path": "E:/BACKEND/MySql/mysql-connector-j-8.4.0.jar",
     "onboarding.tips.debug.path": "E:/Intellij IDEA/Bank Management System/src/Main.java",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -102,6 +100,19 @@
       <option name="presentableId" value="Default" />
       <updated>1721815608634</updated>
     </task>
+    <task id="LOCAL-00001" summary="Login and Signup forms">
+      <option name="closed" value="true" />
+      <created>1721823211553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721823211553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login and Signup forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and Signup forms" />
   </component>
 </project>
