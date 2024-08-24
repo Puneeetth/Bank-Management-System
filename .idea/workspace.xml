@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Login,signup connected with database,signup2;">
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Signup3.java" afterDir="false" />
+    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Login,signup connected with database,signup2,Started with signup3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Signup2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Signup2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Signup3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Signup3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Login.executor": "Run",
-    "Application.Signup.executor": "Run",
-    "Application.Signup2.executor": "Run",
-    "Application.Signup3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Intellij IDEA/Bank Management System",
-    "onboarding.tips.debug.path": "E:/Intellij IDEA/Bank Management System/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Login.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Signup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Signup2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Signup3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Intellij IDEA/Bank Management System&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Intellij IDEA/Bank Management System/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Intellij IDEA\Bank Management System\src\bank\management\system" />
@@ -151,13 +150,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722790945821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login,signup connected with database,signup2,Started with signup3">
+      <option name="closed" value="true" />
+      <created>1724384430151</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724384430151</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login and Signup forms" />
     <MESSAGE value="Login and Signup forms added with database connection" />
     <MESSAGE value="Login,signup connected with database,signup2;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login,signup connected with database,signup2;" />
+    <MESSAGE value="Login,signup connected with database,signup2,Started with signup3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login,signup connected with database,signup2,Started with signup3" />
   </component>
 </project>

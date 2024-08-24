@@ -2,9 +2,13 @@ package bank.management.system;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Signup3 extends JFrame {
+public class Signup3 extends JFrame implements ActionListener {
        JRadioButton r1,r2,r3,r4;
+       JCheckBox c1,c2,c3,c4,c5,c6;
+       JButton s,c;
     Signup3(){
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/bank.png"));
         Image i2 = i1.getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT);
@@ -93,12 +97,91 @@ public class Signup3 extends JFrame {
         l10.setBounds(100,400,200,20);
         add(l10);
 
+        JLabel l11 = new JLabel("Services Required:");
+        l11.setFont(new Font("Raleway",Font.BOLD,18));
+        l11.setBounds(100,450,200,30);
+        add(l11);
+
+
+
+        c1 = new JCheckBox("ATM CARD");
+        c1.setBackground(new Color(215,252,252));
+        c1.setFont(new Font("Raleway",Font.BOLD,16));
+        c1.setBounds(100,500,200,30);
+        add(c1);
+
+        c2 = new JCheckBox("Internet Banking");
+        c2.setBackground(new Color(215,252,252));
+        c2.setFont(new Font("Raleway",Font.BOLD,16));
+        c2.setBounds(350,500,200,30);
+        add(c2);
+
+        c3 = new JCheckBox("Mobile Banking");
+        c3.setBackground(new Color(215,252,252));
+        c3.setFont(new Font("Raleway",Font.BOLD,16));
+        c3.setBounds(100,550,200,30);
+        add(c3);
+
+        c4 = new JCheckBox("EMAIL Alerts");
+        c4.setBackground(new Color(215,252,252));
+        c4.setFont(new Font("Raleway",Font.BOLD,16));
+        c4.setBounds(350,550,200,30);
+        add(c4);
+
+        c5 = new JCheckBox("Cheque Book");
+        c5.setBackground(new Color(215,252,252));
+        c5.setFont(new Font("Raleway",Font.BOLD,16));
+        c5.setBounds(100,600,200,30);
+        add(c5);
+
+        c6 = new JCheckBox("Cheque Book");
+        c6.setBackground(new Color(215,252,252));
+        c6.setFont(new Font("Raleway",Font.BOLD,16));
+        c6.setBounds(350,600,200,30);
+        add(c6);
+
+        JCheckBox c7 = new JCheckBox("I here by declare that the above entered details correct to the best of my knowledge.",true);
+        c7.setBackground(new Color(215,252,252));
+        c7.setFont(new Font("Raleway",Font.BOLD,12));
+        c7.setBounds(100,680,600,20);
+        add(c7);
+
+        JLabel l12 = new JLabel("Form No : ");
+        l12.setFont(new Font("Raleway",Font.BOLD,14));
+        l12.setBounds(700,10,100,30);
+        add(l12);
+
+        JLabel l13 = new JLabel();
+        l13.setFont(new Font("Raleway",Font.BOLD,14));
+        l13.setBounds(760,10,60,30);
+        add(l13);
+
+       s = new JButton("Submit");
+       s.setFont(new Font("Raleway",Font.BOLD,14));
+       s.setBackground(Color.BLACK);
+       s.setForeground(Color.WHITE);
+       s.setBounds(250,720,100,30);
+       add(s);
+
+        c = new JButton("Cancel");
+        c.setFont(new Font("Raleway",Font.BOLD,14));
+        c.setBackground(Color.BLACK);
+        c.setForeground(Color.WHITE);
+        c.setBounds(420,720,100,30);
+        add(c);
+
         getContentPane().setBackground(new Color(215,252,252));
         setSize(850,800);
         setLayout(null);
         setLocation(400,20);
         setVisible(true);
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+    }
+
     public static void main(String[] args) {
        new Signup3();
     }
