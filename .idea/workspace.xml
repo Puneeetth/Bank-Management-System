@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Login,signup connected with database,signup2,Started with signup3">
+    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Login,signup connected with database,signup2,signup3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Signup2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Signup2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bank/management/system/Signup3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Signup3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724384430151</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login,signup connected with database,signup2,signup3">
+      <option name="closed" value="true" />
+      <created>1724507825800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724507825800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +175,7 @@
     <MESSAGE value="Login and Signup forms added with database connection" />
     <MESSAGE value="Login,signup connected with database,signup2;" />
     <MESSAGE value="Login,signup connected with database,signup2,Started with signup3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login,signup connected with database,signup2,Started with signup3" />
+    <MESSAGE value="Login,signup connected with database,signup2,signup3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login,signup connected with database,signup2,signup3" />
   </component>
 </project>
