@@ -100,11 +100,26 @@ public class Login extends JFrame implements ActionListener {
         try{
             if(e.getSource()==button1){
 
+                Con c = new Con();
+                String cardno = textField2.getText();
+                String pin = passwordField3.getText();
+                String q = "select*from login where card_no = '"+cardno+"' and pin = '"+pin +"'";
+                ResultSet resultSet = c.statement.executeQuery(q);
+                if(resultSet.next()){
+                    setVisible(false);
+                    new main_class(pin);
+                }else {
+                    JOptionPane.showMessageDialog(null,"Incorrext Card Number and Password");
+                }
+
+
+
             } else if (e.getSource() == button2) {
                 textField2.setText("");
                 passwordField3.setText("");
             }else if(e.getSource() == button3){
-
+                new Signup();
+                setVisible(false);
             }
         }catch (Exception E){
             E.printStackTrace();
