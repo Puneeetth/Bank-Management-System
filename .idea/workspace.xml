@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Now,Enabled with FashCash">
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Pin.java" afterDir="false" />
+    <list default="true" id="129f4a79-88c3-4cb4-a1d7-c61288bad474" name="Changes" comment="Pin can be changed and if changed its updated in the related fields">
+      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Mini.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/management/system/FastCash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/FastCash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bank/management/system/main_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/main_class.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,7 @@
     "Application.Deposit.executor": "Run",
     "Application.FastCash.executor": "Run",
     "Application.Login.executor": "Run",
+    "Application.Mini.executor": "Run",
     "Application.Pin.executor": "Run",
     "Application.Signup.executor": "Run",
     "Application.Signup2.executor": "Run",
@@ -63,7 +65,7 @@
       <recent name="E:\Intellij IDEA\Bank Management System\src\bank\management\system" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pin">
+  <component name="RunManager" selected="Application.Login">
     <configuration name="FastCash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bank.management.system.FastCash" />
       <module name="Bank Management System" />
@@ -90,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bank.management.system.Pin" />
+    <configuration name="Mini" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank.management.system.Mini" />
       <module name="Bank Management System" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Withdrawl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bank.management.system.Withdrawl" />
+    <configuration name="Pin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank.management.system.Pin" />
       <module name="Bank Management System" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.Mini" />
         <item itemvalue="Application.Pin" />
         <item itemvalue="Application.main_class" />
         <item itemvalue="Application.FastCash" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.Withdrawl" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725876665708</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pin can be changed and if changed its updated in the related fields">
+      <option name="closed" value="true" />
+      <created>1725974689725</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725974689725</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,6 +243,7 @@
     <MESSAGE value="Login,signup connected with database,signup2 and signup3 connected with database,main_class(atm and buttons)" />
     <MESSAGE value="Login,signup connected with database,signup2 and signup3 connected with database,main_class(atm and buttons),Withdrawl and BalanceEnquiry." />
     <MESSAGE value="Now,Enabled with FashCash" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now,Enabled with FashCash" />
+    <MESSAGE value="Pin can be changed and if changed its updated in the related fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pin can be changed and if changed its updated in the related fields" />
   </component>
 </project>
